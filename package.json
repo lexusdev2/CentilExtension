@@ -1,0 +1,62 @@
+{
+    "name": "ts-djs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.ts",
+    "scripts": {
+        "clean": "del /s /q dist",
+        "build": "tsc --build",
+        "start": "npm run clean && npm run build && nodemon --watch src --ext ts,json --exec ts-node -r tsconfig-paths/register src/index.ts",
+        "startNoClean": "npm run build && nodemon --watch src --ext ts,json --exec ts-node -r tsconfig-paths/register src/index.ts",
+        "dev": "npm run clean && npm run build && nodemon --watch src --ext ts,json --exec ts-node -r tsconfig-paths/register src/index.ts",
+        "devNoClean": "npm run build && nodemon --watch src --ext ts,json --exec ts-node -r tsconfig-paths/register src/index.ts",
+        "dev:development": "npm run clean && npm run build && nodemon --watch src --ext ts,json --exec ts-node -r tsconfig-paths/register src/index.ts --development",
+        "dev:developmentNoClean": "npm run build && nodemon --watch src --ext ts,json --exec ts-node -r tsconfig-paths/register src/index.ts --development",
+        "devStart": "npm run clean && npm run build && nodemon --watch src --ext ts,json --exec ts-node -r tsconfig-paths/register src/index.ts --development",
+        "devStartNoClean": "npm run build && nodemon --watch src --ext ts,json --exec ts-node -r tsconfig-paths/register src/index.ts --development"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "_moduleAliases": {
+        "@": "dist",
+        "@base": "dist/base",
+        "@classes": "dist/base/classes",
+        "@enums": "dist/base/enums",
+        "@interfaces": "dist/base/interfaces",
+        "@schemas": "dist/base/schemas"
+    },
+    "devDependencies": {
+        "@types/express": "^5.0.3",
+        "@types/jsonwebtoken": "^9.0.10",
+        "@types/node-schedule": "^2.1.7",
+        "javascript-obfuscator": "^4.1.1",
+        "nodemon": "^3.1.10",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.8.3"
+    },
+    "dependencies": {
+        "@discordjs/builders": "^1.11.2",
+        "chalk": "^5.4.1",
+        "discord.js": "^14.19.3",
+        "dotenv": "^16.5.0",
+        "express": "^5.1.0",
+        "glob": "^11.0.2",
+        "jsonwebtoken": "^9.0.2",
+        "module-alias": "^2.2.3",
+        "mongoose": "^8.14.1",
+        "mysql2": "^3.14.1",
+        "nanoid": "^5.1.5",
+        "node-schedule": "^2.1.1",
+        "reciple-interaction-events": "^4.0.0",
+        "reflect-metadata": "^0.2.2",
+        "riffy": "^1.0.7-rc.2",
+        "riffy-spotify": "^1.0.2",
+        "strip-ansi": "^7.1.0",
+        "tsconfig-paths": "^4.2.0",
+        "typeorm": "^0.3.24",
+        "uuid": "^11.1.0",
+        "winston": "^3.17.0"
+    }
+}

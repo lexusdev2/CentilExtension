@@ -1,0 +1,28 @@
+{
+    "token": "OTgwNzkzNjg0NDk5MDA1NDUw.GEYyGC.FqBbKLZIHFY3rP53mLjTbqNl73mquOxWTk_Ly0",
+    "discordClientId": "980793684499005450",
+    "clientSecret": "MIit_HAFsZ7rP9SUOhu4CUSdvBOKXXz1",
+    "guildId": "1366380771698540565",
+    "mongoUrl": "mongodb+srv://server:LnfOYtVXtVklkuBP@server.rp4zyjw.mongodb.net/",
+
+    "DevToken": "-",
+    "DevDiscordClientId": "1000311738639597669",
+    "DevGuildId": "1264042114346651741",
+    "devUser": ["1246108306637062235"],
+    "devMongoUrl": "mongodb+srv://server:LnfOYtVXtVklkuBP@server.rp4zyjw.mongodb.net/",
+
+    "spotify": {
+        "clientId": "dff5564e5d6c450087ea186d957f1ed2",
+        "clientSecret": "1299ec0c59a847918f52c6ffd23bcd1e"
+    },
+
+    "nodes": [
+        {
+            "host": "lavalink.jirayu.net",
+            "password": "youshallnotpass",
+            "port": 13592,
+            "secure": false,
+            "name": "Main Node"
+        }
+    ]
+}

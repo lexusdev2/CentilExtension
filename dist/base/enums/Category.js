@@ -1,0 +1,21 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Category;
+(function (Category) {
+    Category["Utilities"] = "Utilities";
+    Category["SubCommands"] = "SubCommands";
+    Category["Community"] = "Community";
+    Category["Moderation"] = "Moderation";
+    Category["Configuration"] = "Configuration";
+    Category["Fun"] = "Fun";
+    Category["Info"] = "Info";
+    Category["Music"] = "Music";
+    Category["Economy"] = "Economy";
+    Category["Games"] = "Games";
+    Category["Developer"] = "Developer";
+    Category["Management"] = "Management";
+    Category["Logging"] = "Logging";
+    Category["Events"] = "Events";
+    Category["System"] = "System";
+})(Category || (Category = {}));
+exports.default = Category;
