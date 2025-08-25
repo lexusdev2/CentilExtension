@@ -1,43 +1,43 @@
 {
-    "compilerOptions": {
-        /* Basic Options */
-        "target": "ES2016",
-        "module": "commonjs",
-        "rootDir": "./src",
-        "outDir": "./dist",
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "ES2016",
+    "module": "commonjs",
+    "rootDir": "./src",
+    "outDir": "./dist",
 
-        /* Path Mapping */
-        "baseUrl": "./src",
-        "paths": {
-            "@classes/*": ["base/classes/*"],
-            "@enums/*": ["base/enums/*"],
-            "@interfaces/*": ["base/interfaces/*"],
-            "@schemas/*": ["base/schemas/*"]
-        },
-        "experimentalDecorators": true,
-        "emitDecoratorMetadata": true,
-
-        /* Module Resolution */
-        "moduleResolution": "node",
-        "esModuleInterop": true,
-        "resolveJsonModule": true,
-        "forceConsistentCasingInFileNames": true,
-        "strictPropertyInitialization": false,
-
-        /* Type Checking */
-        "strict": true,
-        "skipLibCheck": true,
-
-        /* Emit Control */
-        "declaration": true,
-        "sourceMap": false,
-
-        /* Linting Flags */
-        "noUnusedLocals": false,
-        "noUnusedParameters": false,
-        "noImplicitReturns": true,
-        "noFallthroughCasesInSwitch": true
+    /* Path Mapping */
+    "baseUrl": "./src",
+    "paths": {
+      "@classes/*": ["base/classes/*"],
+      "@enums/*": ["base/enums/*"],
+      "@interfaces/*": ["base/interfaces/*"],
+      "@schemas/*": ["base/schemas/*"]
     },
-    "include": ["src"],
-    "exclude": ["node_modules", "dist"]
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+
+    /* Module Resolution */
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "strictPropertyInitialization": false,
+
+    /* Type Checking */
+    "strict": true,
+    "skipLibCheck": true,
+
+    /* Emit Control */
+    "declaration": true,
+    "sourceMap": false,
+
+    /* Linting Flags */
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
 }
