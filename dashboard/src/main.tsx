@@ -6,12 +6,14 @@ import Index from "@pages/index";
 import "./index.css";
 
 const Router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Index />,
-  },
+    {
+        path: "/",
+        element: <Index />,
+    },
 ]);
 
 createRoot(document.getElementById("root")!).render(
-  <RouterProvider router={Router} />
+    <div className="antialised">
+        <RouterProvider router={Router} />
+    </div>
 );

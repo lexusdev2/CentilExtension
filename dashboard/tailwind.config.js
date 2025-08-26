@@ -1,16 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
-  theme: {
-    extend: {
-      container: {
-        padding: "1rem",
-      },
+    content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+    theme: {
+        extend: {
+            container: {
+                padding: "1rem",
+            },
+        },
     },
-  },
-  plugins: [require("daisyui")],
-  daisyui: {
-    themes: ["dim"],
-    logs: true,
-  },
+    plugins: [require("daisyui")],
+    daisyui: {
+        themes: ["dim"],
+        logs: true,
+    },
 };

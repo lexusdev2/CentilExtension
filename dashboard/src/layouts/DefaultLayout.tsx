@@ -3,11 +3,11 @@ import NavBar from "@components/NavBar";
 import { ReactNode } from "react";
 
 export default function DefaultLayout({ children }: { children: ReactNode }) {
-  return (
-    <>
-      <NavBar />
-      <main className="container">{children}</main>
-      <Footer />
-    </>
-  );
+    return (
+        <div className="relative flex min-h-screen flex-col">
+            <NavBar />
+            <main className="container flex-1 flex-grow">{children}</main>
+            <Footer />
+        </div>
+    );
 }

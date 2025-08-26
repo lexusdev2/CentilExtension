@@ -6,11 +6,11 @@ import GuildList from "@components/GuildList";
 import DefaultLayout from "@layouts/DefaultLayout";
 
 function App() {
-  return (
-    <DefaultLayout>
-      <GuildList />
-    </DefaultLayout>
-  );
+    return (
+        <DefaultLayout>
+            <GuildList />
+        </DefaultLayout>
+    );
 }
 
 export default App;
